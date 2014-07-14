@@ -17,7 +17,7 @@
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
@@ -28,7 +28,7 @@
         </StackPanel>
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1">
-            <ScrollViewer VerticalAlignment="Top">
+            <ScrollViewer>
                 <StackPanel>
                     <StackPanel Background="{StaticResource PhoneDisabledBrush}">
                         <StackPanel Margin="12,12,12,0">

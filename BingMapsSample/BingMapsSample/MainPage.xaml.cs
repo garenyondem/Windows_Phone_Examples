@@ -54,6 +54,5 @@ namespace BingMapsSample
             browser.Uri = new Uri("http://garen.yondem.com");
             browser.Show();
         }
-
     }
 }
